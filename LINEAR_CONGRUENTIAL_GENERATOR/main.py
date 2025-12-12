@@ -21,7 +21,7 @@ while True:
     try:
         ROWS = int(input("Podaj ilość rzędów (3-64)\n:"))
         # print(ROWS)
-        if 64 > ROWS > 3:
+        if 64 >= ROWS >= 3:
             break
         else:
             print("-- Nie podano liczby z zakresu --")
