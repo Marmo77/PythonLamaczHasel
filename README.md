@@ -63,8 +63,7 @@ LINEAR_CONGRUENTIAL_GENERATOR/
 ### 📄 Pliki w projekcie
 
 #### 1️⃣ `my_interpetation.py`
-
-<img src="public/interpretation_diagram.png" alt="Schemat działania" width="400">
+<img src="public/intepretacja.jpg" alt="Schemat działania" width="400">
 
 **Prymitywny kod demonstrujący schemat działania LCG:**
 
@@ -162,6 +161,7 @@ Program tworzy siatkę, gdzie każdy kwadrat to wizualna reprezentacja wygenerow
 </tr>
 </table>
 
+<igm
 **Konwersja liczby na kolor:**
 ```python
 intensity = int((losowa_liczba / highest) * 255)
@@ -171,6 +171,10 @@ hex_col = f"#{intensity:02x}{intensity:02x}{intensity:02x}"
 - Liczba **0** → `#000000` (czarny)
 - Liczba **116640** → `#808080` (szary)
 - Liczba **233280** → `#ffffff` (biały)
+
+</br>
+<img src="public/wizualizacja.jpg" alt="Schemat działania" width="400">
+*(Program po uruchomieniu i wybraniu 12)*
 
 ---
 
