@@ -1,3 +1,5 @@
+# STRUKTURALNE PODEJŚCIE DO LCG
+
 import random
 import tkinter as tk
 
